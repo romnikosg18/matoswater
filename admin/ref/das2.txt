@@ -1,0 +1,271 @@
+<!-- Main content -->
+    <section class="content">
+      <!-- Info boxes -->
+      <div class="row">
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="info-box">
+            <span class="info-box-icon bg-aqua"><i class="fa fa-tasks"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">PENDING TASKS</span>
+              <span class="info-box-number">30</span>
+            </div>  
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        <!-- /.col -->
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="info-box">
+            <span class="info-box-icon bg-yellow"><i class="fa fa-wrench"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">ONGOING TASKS</span>
+              <span class="info-box-number">15</span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        <!-- /.col -->
+
+        <!-- fix for small devices only -->
+        <div class="clearfix visible-sm-block"></div>
+
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="info-box">
+            <span class="info-box-icon bg-green"><i class="fa fa-thumbs-up"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">DONE</span>
+              <span class="info-box-number">10</span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        <!-- /.col -->
+        <div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="info-box">
+            <span class="info-box-icon bg-red"><i class="fa fa-mouse-pointer"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">HIGH PRIORITY</span>
+              <span class="info-box-number">5</span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        <!-- /.col -->
+      </div>
+      <!-- /.row -->
+
+      <!-- Main row -->
+      <div class="row">
+        <!-- Left col -->
+        <div class="col-md-8">
+          <!-- MAP & BOX PANE -->
+
+          <!-- TABLE: LATEST ORDERS -->
+          <div class="box box-info">
+            <div class="box-header with-border">
+              <h3 class="box-title">TASK MONITORING BOARD</h3>
+
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+              </div>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <div class="table-responsive">
+                <table class="table no-margin">
+                  <thead>
+                  <tr>
+                    <th>Control No</th>
+                    <th>Category</th>
+                    <th>Description</th>
+                    <th>Requested By</th>
+                    <th>Status</th>
+                    <th>POC</th>
+                    <th>Priority</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  
+                  <tr>
+                    <td>0000001</td>
+                    <td>LIGHTINGS</td>
+                    <td>Repair @ Purok Violeta</td>
+                    <td>Sebedoria 10/09/18</td>
+                    <td><span class="label label-success">Done</span></td>
+                    <td>Elizalde</td>
+                    <td><span class="label label-danger">High</span></td>  
+                  </tr>
+
+                  <tr>
+                    <td>0000002</td>
+                    <td>DRAINAGE</td>
+                    <td>Repair Streetlight in Sharina Heights Subd</td>
+                    <td>Pastor Diwara</td>
+                    <td><span class="label label-success">Done</span></td>
+                    <td>Jimmy</td>
+                    <td><span class="label label-danger">High</span></td>  
+                  </tr>
+
+                  <tr>
+                    <td>0000003</td>
+                    <td>DECLOGGING</td>
+                    <td>@ Purok Riverside</td>
+                    <td>Pastor Diwara</td>
+                    <td><span class="label label-success">Done</span></td>
+                    <td>Elizalde</td>
+                    <td><span class="label label-danger">High</span></td>  
+                  </tr>
+
+                  <tr>
+                    <td>0000004</td>
+                    <td>FOOTWALK</td>
+                    <td>Repair @ Purok Malipayon</td>
+                    <td>Glucita Bombio</td>
+                    <td><span class="label label-war  ning">Pending</span></td>
+                    <td>Contractor</td>
+                    <td><span class="label label-danger">High</span></td>  
+                  </tr>
+
+                  <tr>
+                    <td>0000005</td>
+                    <td>WATER</td>
+                    <td>Repair @ Purok Paho</td>
+                    <td>Geralding Sanao </td>
+                    <td><span class="label label-success">Onging</span></td>
+                    <td>Ramil</td>
+                    <td><span class="label label-success">Low</span></td>  
+                  </tr>
+
+                </tbody>
+                </table>
+              </div>
+              <!-- /.table-responsive -->
+            </div>
+            <!-- /.box-body -->
+            <div class="box-footer clearfix">
+              <a href="javascript:void(0)" class="btn btn-sm btn-info btn-flat pull-left">Add Tasak</a>
+            </div>
+            <!-- /.box-footer -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
+
+        <div class="col-md-4">
+          <!-- Info Boxes Style 2 -->
+          <div class="info-box bg-green">
+            <span class="info-box-icon"><i class="fa fa-lightbulb-o"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">SAP</span>
+              <span class="info-box-number">Open Request: 5</span>
+
+              <div class="progress">
+                <div class="progress-bar" style="width: 50%"></div>
+              </div>
+              <span class="progress-description">
+                    Create Request | View List
+                  </span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+          <div class="info-box bg-orange">
+            <span class="info-box-icon"><i class="fa fa-circle-o-notch"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">DRAINAGE</span>
+              <span class="info-box-number">10</span>
+
+              <div class="progress">
+                <div class="progress-bar" style="width: 20%"></div> 
+              </div>
+              <span class="progress-description">
+                    20% Increase in 30 Days
+                  </span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+          <div class="info-box bg-aqua">
+            <span class="info-box-icon"><i class="fa fa-tint"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">WATER</span>
+              <span class="info-box-number">15</span>
+
+              <div class="progress">
+                <div class="progress-bar" style="width: 70%"></div>
+              </div>
+              <span class="progress-description">
+                    70% Increase in 30 Days
+                  </span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+          <div class="info-box bg-red">
+            <span class="info-box-icon"><i class="fa fa-road"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">FOOTWALK</span>
+              <span class="info-box-number">2</span>
+
+              <div class="progress">
+                <div class="progress-bar" style="width: 40%"></div>
+              </div>
+              <span class="progress-description">
+                    40% Increase in 30 Days
+                  </span>
+            </div>
+
+
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+
+                  <div class="info-box bg-green">
+            <span class="info-box-icon"><i class="ion-ios-chatbubble-outline"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">OTHERS</span>
+              <span class="info-box-number">2</span>
+
+              <div class="progress">
+                <div class="progress-bar" style="width: 40%"></div>
+              </div>
+              <span class="progress-description">
+                    40% Increase in 30 Days
+                  </span>
+            </div>
+
+            
+            <!-- /.info-box-content -->
+          </div>  
+
+         
+        </div>
+        <!-- /.col -->
+      </div>
+      <!-- /.row -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+  <footer class="main-footer">
+    <div class="pull-right hidden-xs">
+      <b>Version</b> 2.4.0
+    </div>
+    <strong>Copyright &copy; 2018-2020 JAS BUSINESS CONSULTING.</strong> All rights
+    reserved.
+  </footer>
