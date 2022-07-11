@@ -104,9 +104,7 @@ session_start();
 
                     </form>
 
-                        <form action="register.php">
-                        <input class="btn btn-primary" type="submit" name="login" value="Sign-up instead" >
-                    </form>
+
                     
                 </div>
 
